@@ -1,0 +1,24 @@
+.fifty{
+  Background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(25,25,32,0.5284488795518207) 35%, rgba(0,212,255,0) 90%), url(https://rocketleague.media.zestyio.com/rl_f2p_customized_asset_1920x1080--1-.f1cb27a519bdb5b6ed34049a5b86e317.jpg) ;
+
+ background-size: cover;
+ background-position: center;
+}
+@media only screen and (max-width: 768px){
+  .hide-text{
+
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px){
+  .spill{
+    position: absolute;
+    top: 56vh;
+  }
+  }
+.row-height{
+  height: 35vh;
+}
+.font{
+  font-family: 'Archivo Black', sans-serif;
+}
