@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
-    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <!-- <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" class="css">
   <title>Rocket League</title>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-  <!-- <style>
+  <style>
     body.debug .container,
     body.debug .container-fluid {
       outline: 2px double red;
@@ -29,10 +29,10 @@
       outline: 2px dotted yellow;
       outline-offset: -3px;
     }
-  </style> -->
+  </style>
 </head>
 
-<body class="debug">
+<body class="">
 
   <header class="container-fluid sticky-top">
     <div class="row">
@@ -45,9 +45,9 @@
 
   <main class="container-fluid">
 
-    <div class="row fifty">
-      <div class="col-md-4 d-flex justify-content-center">
-        <div class="card border-light mb-3" style="max-width: 18rem;">
+    <div class="row octane">
+      <div class="col-md-4 d-flex justify-content-left">
+        <div class="card border-primary mb-3" style="max-width: 18rem;">
           <div class="card-header">Personal Info.</div>
           <div class="card-body">
             <h5 class="card-title">Find A Teamate!</h5>
@@ -68,7 +68,7 @@
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                 style="height: 100px"></textarea>
               <label for="floatingTextarea2">MESSAGE</label>
-              <input class="btn btn-secondary" type="submit" value="Submit">
+              <input class="btn btn-primary" type="submit" value="Submit">
             </div>
             </p>
           </div>
@@ -78,51 +78,45 @@
     </div>
 
 
-    <div class="row bg-success row-height">
-      <div class="col-md-7 col-6 order-md-last ">
-        <div class="card spill">
-          <div class="card-body ">
-            <h5 class="card-text font">
-              <i class="far fa-futbol">
-                Standard
-              </i>
-            </h5>
-            <br>
-            <i class="far fa-snowflake">
-              <h3 class="font">Snow Day</h3>
-            </i>
-            <br>
-            <i class="fas fa-dice-d20">
-              <h3 class="font">Rumble</h3>
-            </i>
-            <br>
-            <i class="fas fa-basketball-ball">
-              <h3 class="font">Hoops</h3>
-            </i>
-            <br>
-            <i class="fas fa-trophy">
-              <h3 class="font">Tournaments</h3>
-            </i>
-            <br>
-          </div>
+    <div class="row bg-primary row-height">
+      <div class="col-md-6 col-6 order-md-last ">
+        <div class="card spill card-body ">
+
+
+          <h6 class="font">
+            <i class="far fa-futbol"></i>Standard
+          </h6><br>
+          <h6 class="font">
+            <i class="far fa-snowflake"></i>Snow Day
+          </h6><br>
+          <h6 class="font">
+            <i class="fas fa-dice-d20"></i>Rumble
+          </h6><br>
+          <h6 class="font">
+            <i class="fas fa-basketball-ball"></i>Hoops
+          </h6><br>
+          <h6 class="font">
+            <i class="fas fa-trophy"></i>Tournaments
+          </h6><br>
+
         </div>
       </div>
-      <div class="col-md-5 font text-light">
+      <div class="col-md-5 col-6 font text-light">
         <h1>Find Quality Teamates That Will Help You Win!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam in quae maxime magni aut autem odit veniam
           magnam? </p>
       </div>
     </div>
-    <div class="row bg-secondary">
+    <div class="row bg-success">
       <div class="col-md-3">PLACEHOLDER IMAGE</div>
       <div class="col-md-8">USE AN ICON</div>
     </div>
-    <div class="row bg-light">
+    <div class="row bg-warning">
       <div class="col-md-4">HIGHLIGHT ONE CARD</div>
       <div class="col-md-4 order-md-first">BASIC CARD</div>
       <div class="col-md-4">BASIC CARD</div>
     </div>
-    <div class="row bg-success">
+    <div class="row bg-primary">
       <div class="col-md-8">SOME STUFF</div>
     </div>
 
@@ -130,7 +124,7 @@
 
   <footer>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row bg-light">
         <div class="col-10">MADE BY RYAN FITZGERLD</div>
       </div>
     </div>
