@@ -11577,6 +11577,12 @@
 .row-height{
   height: 35vh;
 }
+.cool-font{
+  font-family: 'Monoton', cursive;
+}
 .font{
   font-family: 'Archivo Black', sans-serif;
+}
+.pic-size{
+  height: 30%;
 }
